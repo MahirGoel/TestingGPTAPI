@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Add link to Typold font if available, otherwise use a fallback -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav">
+             <a href="/" class="active">Run Test</a>
+             <a href="/history">History</a>
+        </nav>
+        <h1><%= title %></h1>
+
+        <section class="controls-section box">
+            <h2>Configuration</h2>
+            <form id="test-form">
+                <div class="form-group">
+                    <label for="model-select">Model:</label>
+                    <select id="model-select" name="model">
+                        <option value="gpt-4o-mini" selected>gpt-4o-mini</option>
+                        <option value="gpt-4o">gpt-4o</option>
+                        <option value="gpt-4-turbo">gpt-4-turbo</option>
+                        <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="prompt-input">Prompt:</label>
+                    <textarea id="prompt-input" name="prompt" rows="3">What is the capital of France?</textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="tokens-slider">Max Tokens: <span id="tokens-value">100</span></label>
+                    <input type="range" id="tokens-slider" name="maxTokens" min="10" max="5000" value="100">
+                 </div>
+
+                 <div class="form-group">
+                    <label for="requests-input">Number of Concurrent Requests:</label>
+                    <input type="number" id="requests-input" name="numRequests" min="1" max="100" value="10">
+                 </div>
+
+                 <div class="form-group">
+                    <label for="temp-slider">Temperature: <span id="temp-value">0.7</span></label>
+                    <input type="range" id="temp-slider" name="temperature" min="0" max="2" step="0.1" value="0.7">
+                 </div>
+
+                 <div class="form-group">
+                    <label for="top-p-slider">Top P: <span id="top-p-value">1.0</span></label>
+                    <input type="range" id="top-p-slider" name="topP" min="0" max="1" step="0.1" value="1.0">
+                 </div>
+
+                <button type="submit" id="start-test-btn">Start Test</button>
+            </form>
+        </section>
+
+        <section class="logger-section box">
+            <h2>Backend Logger</h2>
+            <pre id="logger-box">Initializing...</pre>
+        </section>
+
+        <section class="results-section box">
+            <h2>Results Summary</h2>
+            <div id="stats-summary">
+                <p>Total Requests: <span id="total-requests">0</span></p>
+                <p>Successful: <span id="successful-requests">0</span></p>
+                <p>Failed: <span id="failed-requests">0</span></p>
+                <p>Total Time: <span id="total-time">0.00</span>s</p>
+                <p>Avg. Response Time: <span id="avg-response-time">0.00</span>s</p>
+            </div>
+
+            <!-- Tab Buttons -->
+            <div class="chart-tabs">
+                <button class="tab-button active" data-tab="responseTimeTab">Response Time</button>
+                <button class="tab-button" data-tab="responseTimeHistTab">Time Histogram</button>
+                <button class="tab-button" data-tab="tokenUsageTab">Token Usage</button>
+                <button class="tab-button" data-tab="successRateTab">Success Rate</button>
+            </div>
+
+            <!-- Tab Content Panels -->
+            <div class="charts-container">
+                 <div id="responseTimeTab" class="tab-panel active">
+                    <canvas id="responseTimeChart"></canvas>
+                 </div>
+                 <div id="responseTimeHistTab" class="tab-panel">
+                    <canvas id="responseTimeHistogramChart"></canvas>
+                 </div>
+                 <div id="tokenUsageTab" class="tab-panel">
+                    <canvas id="tokenUsageChart"></canvas>
+                 </div>
+                 <div id="successRateTab" class="tab-panel">
+                    <canvas id="successRateChart"></canvas>
+                 </div>
+            </div>
+
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Request #</th>
+                        <th>Status</th>
+                        <th class="sortable" data-sort-key="duration">Time (s) <span class="sort-indicator"></span></th>
+                        <th class="sortable" data-sort-key="tokens">Tokens (C/P/T) <span class="sort-indicator"></span></th>
+                        <th>OpenAI ID</th>
+                        <th>Response Snippet / Error</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Results will be populated here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section class="responses-viewer-section">
+            <h2>Individual Responses</h2>
+            <div id="responses-repeater">
+                <!-- Individual response boxes will be populated here -->
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- For rendering markdown -->
+    <script src="/js/client.js"></script>
+</body>
+</html> 

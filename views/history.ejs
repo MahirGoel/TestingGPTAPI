@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav">
+             <a href="/">Run Test</a>
+             <a href="/history" class="active">History</a>
+        </nav>
+        <h1><%= title %></h1>
+
+        <% if (history && history.length > 0) { %>
+            <section class="history-list">
+                <h2>Past Test Runs</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Timestamp</th>
+                            <th>Model</th>
+                            <th>Prompt</th>
+                            <th>Requests</th>
+                            <th>Successful</th>
+                            <th>Failed</th>
+                            <th>Total Time (s)</th>
+                            <!-- Add more columns if needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% history.forEach(run => { %>
+                            <tr style="cursor: pointer;" onclick="window.location='/history/<%= run.id %>';">
+                                <td><%= new Date(run.timestamp).toLocaleString() %></td>
+                                <td><%= run.parameters.model %></td>
+                                <td title="<%= run.parameters.prompt %>"><%= run.parameters.prompt.substring(0, 30) %><% if (run.parameters.prompt.length > 30) { %>...<% } %></td>
+                                <td><%= run.summary.totalRequests %></td>
+                                <td><%= run.summary.successfulCount %></td>
+                                <td><%= run.summary.failedCount %></td>
+                                <td><%= run.summary.totalDuration %></td>
+                                <!-- Link is implicit via row click -->
+                            </tr>
+                        <% }); %>
+                    </tbody>
+                </table>
+            </section>
+        <% } else { %>
+            <p>No test history found. Run some tests first!</p>
+        <% } %>
+
+    </div>
+    <!-- No client-side JS needed for this basic history view -->
+</body>
+</html> 

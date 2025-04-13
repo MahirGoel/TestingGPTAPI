@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav">
+             <a href="/">Run Test</a>
+             <a href="/history">History</a>
+        </nav>
+        <h1><%= title %></h1>
+        <p>Test run on: <%= new Date(testRun.timestamp).toLocaleString() %> (ID: <%= testRun.id %>)</p>
+
+        <section class="parameters-display box">
+            <h2>Test Parameters</h2>
+            <ul>
+                <li><strong>Model:</strong> <%= testRun.parameters.model %></li>
+                <li><strong>Prompt:</strong> <pre><%= testRun.parameters.prompt %></pre></li>
+                <li><strong>Max Tokens:</strong> <%= testRun.parameters.maxTokens %></li>
+                <li><strong>Number of Requests:</strong> <%= testRun.parameters.numRequests %></li>
+                <li><strong>Temperature:</strong> <%= testRun.parameters.temperature %></li>
+                <li><strong>Top P:</strong> <%= testRun.parameters.topP %></li>
+            </ul>
+        </section>
+
+        <section class="results-section box">
+            <h2>Results Summary</h2>
+            <div id="stats-summary">
+                <p>Total Requests: <span id="total-requests"><%= testRun.summary.totalRequests %></span></p>
+                <p>Successful: <span id="successful-requests"><%= testRun.summary.successfulCount %></span></p>
+                <p>Failed: <span id="failed-requests"><%= testRun.summary.failedCount %></span></p>
+                <p>Total Time: <span id="total-time"><%= testRun.summary.totalDuration %>s</span></p>
+                <!-- Avg Response Time will be calculated client-side -->
+                <p>Avg. Response Time: <span id="avg-response-time">Calculating...</span>s</p>
+            </div>
+
+            <!-- Tab Buttons -->
+            <div class="chart-tabs">
+                <button class="tab-button active" data-tab="responseTimeTab">Response Time</button>
+                <button class="tab-button" data-tab="responseTimeHistTab">Time Histogram</button>
+                <button class="tab-button" data-tab="tokenUsageTab">Token Usage</button>
+                <button class="tab-button" data-tab="successRateTab">Success Rate</button>
+            </div>
+
+            <!-- Tab Content Panels -->
+            <div class="charts-container">
+                 <div id="responseTimeTab" class="tab-panel active">
+                    <canvas id="responseTimeChart"></canvas>
+                 </div>
+                 <div id="responseTimeHistTab" class="tab-panel">
+                    <canvas id="responseTimeHistogramChart"></canvas>
+                 </div>
+                 <div id="tokenUsageTab" class="tab-panel">
+                    <canvas id="tokenUsageChart"></canvas>
+                 </div>
+                 <div id="successRateTab" class="tab-panel">
+                    <canvas id="successRateChart"></canvas>
+                 </div>
+            </div>
+
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>Request #</th>
+                        <th>Status</th>
+                        <th class="sortable" data-sort-key="duration">Time (s) <span class="sort-indicator"></span></th>
+                        <th class="sortable" data-sort-key="tokens">Tokens (C/P/T) <span class="sort-indicator"></span></th>
+                        <th>OpenAI ID</th>
+                        <th>Response Snippet / Error</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Results table body will be populated by client-side script -->
+                </tbody>
+            </table>
+        </section>
+
+        <section class="responses-viewer-section">
+            <h2>Individual Responses</h2>
+            <div id="responses-repeater">
+                <!-- Individual response boxes will be populated by client-side script -->
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Pass testRun data to client-side script -->
+    <script>
+        const historicalTestData = <%- JSON.stringify(testRun) %>;
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/js/history_client.js"></script> <!-- New JS file for this page -->
+</body>
+</html> 

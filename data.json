@@ -1,0 +1,3452 @@
+[
+  {
+    "id": "test-1744585386362",
+    "timestamp": "2025-04-13T23:03:06.362Z",
+    "parameters": {
+      "model": "gpt-4o-mini",
+      "prompt": "What is the capital of all states of United States",
+      "maxTokens": 506,
+      "numRequests": 10,
+      "temperature": 0.7,
+      "topP": 1
+    },
+    "summary": {
+      "totalDuration": "8.34",
+      "successfulCount": 10,
+      "failedCount": 0,
+      "totalRequests": 10
+    },
+    "results": [
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 1,
+          "status": "Success",
+          "duration": "7.75",
+          "response": "Here is a list of the capitals of all 50 states in the United States:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nIf you need more information on any specific state or capital, feel free to ask!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 369,
+            "total_tokens": 386,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dxO1SNxuLwQZsIjijrrsL9blxQ",
+          "openai_created": 1744585389
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 2,
+          "status": "Success",
+          "duration": "6.13",
+          "response": "Here is a list of the capitals of all 50 states in the United States:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nIf you have any more questions or need further information, feel free to ask!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 368,
+            "total_tokens": 385,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dx6Ue4gpoIyf31DffA3mV5TBGI",
+          "openai_created": 1744585389
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 3,
+          "status": "Success",
+          "duration": "6.36",
+          "response": "Here is a list of the capitals of all 50 states in the United States:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nLet me know if you need more information on any specific state or capital!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 367,
+            "total_tokens": 384,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dw3nQOUC2SJ5mxZAdXxbJmeghm",
+          "openai_created": 1744585388
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 4,
+          "status": "Success",
+          "duration": "6.70",
+          "response": "Here is a list of the capitals of all 50 U.S. states:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nLet me know if you need any further information!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 361,
+            "total_tokens": 378,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dxxDNEhRq4RwOxjTNJSui4OSlQ",
+          "openai_created": 1744585389
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 5,
+          "status": "Success",
+          "duration": "7.60",
+          "response": "Here is a list of the capitals of all 50 states in the United States:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nLet me know if you need more information!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 361,
+            "total_tokens": 378,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dwZk9I6ruyWJMJLPJfMuZhe72V",
+          "openai_created": 1744585388
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 6,
+          "status": "Success",
+          "duration": "8.34",
+          "response": "Here is a list of the capitals of all 50 states in the United States:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nIf you need more information about any specific state or its capital, feel free to ask!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 370,
+            "total_tokens": 387,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dx4IXZYyQXZcrcK2bizrrLgRBs",
+          "openai_created": 1744585389
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 7,
+          "status": "Success",
+          "duration": "6.13",
+          "response": "Here is a list of the capitals of all 50 states in the United States:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nIf you have any specific questions about any state or its capital, feel free to ask!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 370,
+            "total_tokens": 387,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dw0gtDn3XezjGAMujCjSHyGiwx",
+          "openai_created": 1744585388
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 8,
+          "status": "Success",
+          "duration": "7.77",
+          "response": "Here is a list of the capitals of all 50 states in the United States:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nIf you need more information about any specific state or capital, feel free to ask!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 369,
+            "total_tokens": 386,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dwrDpdMm2OCio9twORDTgf4SSG",
+          "openai_created": 1744585388
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 9,
+          "status": "Success",
+          "duration": "6.92",
+          "response": "Here is a list of the capital cities of all 50 states in the United States:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nIf you have any other questions or need further information, feel free to ask!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 369,
+            "total_tokens": 386,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dxo5b3y8kWkIRWy0pSZWkEQdDi",
+          "openai_created": 1744585389
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 10,
+          "status": "Success",
+          "duration": "7.75",
+          "response": "Here is a list of the capitals of all 50 states in the United States:\n\n1. Alabama - Montgomery\n2. Alaska - Juneau\n3. Arizona - Phoenix\n4. Arkansas - Little Rock\n5. California - Sacramento\n6. Colorado - Denver\n7. Connecticut - Hartford\n8. Delaware - Dover\n9. Florida - Tallahassee\n10. Georgia - Atlanta\n11. Hawaii - Honolulu\n12. Idaho - Boise\n13. Illinois - Springfield\n14. Indiana - Indianapolis\n15. Iowa - Des Moines\n16. Kansas - Topeka\n17. Kentucky - Frankfort\n18. Louisiana - Baton Rouge\n19. Maine - Augusta\n20. Maryland - Annapolis\n21. Massachusetts - Boston\n22. Michigan - Lansing\n23. Minnesota - Saint Paul\n24. Mississippi - Jackson\n25. Missouri - Jefferson City\n26. Montana - Helena\n27. Nebraska - Lincoln\n28. Nevada - Carson City\n29. New Hampshire - Concord\n30. New Jersey - Trenton\n31. New Mexico - Santa Fe\n32. New York - Albany\n33. North Carolina - Raleigh\n34. North Dakota - Bismarck\n35. Ohio - Columbus\n36. Oklahoma - Oklahoma City\n37. Oregon - Salem\n38. Pennsylvania - Harrisburg\n39. Rhode Island - Providence\n40. South Carolina - Columbia\n41. South Dakota - Pierre\n42. Tennessee - Nashville\n43. Texas - Austin\n44. Utah - Salt Lake City\n45. Vermont - Montpelier\n46. Virginia - Richmond\n47. Washington - Olympia\n48. West Virginia - Charleston\n49. Wisconsin - Madison\n50. Wyoming - Cheyenne\n\nLet me know if you need more information!",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of all states of United States",
+          "maxTokens": 506,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 17,
+            "completion_tokens": 361,
+            "total_tokens": 378,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0dwrxf4cXSjcRAeIOCwo7YrWkOo",
+          "openai_created": 1744585388
+        }
+      }
+    ]
+  },
+  {
+    "id": "test-1744585620313",
+    "timestamp": "2025-04-13T23:07:00.313Z",
+    "parameters": {
+      "model": "gpt-4o-mini",
+      "prompt": "What is the capital of France?",
+      "maxTokens": 100,
+      "numRequests": 100,
+      "temperature": 0.7,
+      "topP": 1
+    },
+    "summary": {
+      "totalDuration": "3.04",
+      "successfulCount": 100,
+      "failedCount": 0,
+      "totalRequests": 100
+    },
+    "results": [
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 1,
+          "status": "Success",
+          "duration": "1.69",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjPNDLKhmOQ52Oj4Tp8diaN6TH",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 2,
+          "status": "Success",
+          "duration": "1.65",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjq9xzMz8kAs4QTIMTkKHQdyEX",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 3,
+          "status": "Success",
+          "duration": "1.66",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjEbJnSgX5W7pUh11b6XEJO7ut",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 4,
+          "status": "Success",
+          "duration": "1.63",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjz8zpqhANmQpAPueSzsRgJvLx",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 5,
+          "status": "Success",
+          "duration": "1.60",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj1DNmcMhpH67ikd8n0K8ocFvJ",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 6,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjZkIi2M5uzbVub8MONx6wP9J1",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 7,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjilVyax5yyn4XTx9mi4V2Naik",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 8,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjKmrLPPTc3HUsquMHgosZaOTQ",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 9,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjzkNDkWnhZhgCm9FBaAQBShfA",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 10,
+          "status": "Success",
+          "duration": "1.69",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjCKvsuvQe8oI3JZBkKfyPJNmr",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 11,
+          "status": "Success",
+          "duration": "2.09",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj7sbhuTcWjL2iD1PQvKWqn96l",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 12,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjvbogj7Hid0G2ZnJhkIFgp6G2",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 13,
+          "status": "Success",
+          "duration": "2.02",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjhOM4W73Sb1d8qsWPBLDYxcWo",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 14,
+          "status": "Success",
+          "duration": "1.69",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hje0LhTH3GS1Sb5vzVlCoDx5fu",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 15,
+          "status": "Success",
+          "duration": "1.69",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjgzgm0JhstpEJgcqjCSRTCGHl",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 16,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjQdO99t8q4rRxKtramFVuJiwC",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 17,
+          "status": "Success",
+          "duration": "2.02",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjDrM3RyTyLP51pISoTh72u5Cu",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 18,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjsuglqehzeQE6BDqfXbfCDR0g",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 19,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjuoIdFwln0MxgqnO4wuojOIN0",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 20,
+          "status": "Success",
+          "duration": "2.02",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjaOBkX0VnqomDhMUKS0eBu8pY",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 21,
+          "status": "Success",
+          "duration": "2.02",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjP8E8EsUCWJtpP8Zg9qbsNnSR",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 22,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjLDNM37EDk7zGF4fRyqp7klpi",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 23,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjlW2M8xNz9HK4OYmJzpIJgplw",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 24,
+          "status": "Success",
+          "duration": "2.15",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjHoG9jXyAu1FAxeniTTEE0ZXX",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 25,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjeNvo9mRwFXTO103XVPBB0LG2",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 26,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjdYhp1zmvGfx8GxPrYlQQdIru",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 27,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj61O4gbEO2qqzQuvqokw5bvah",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 28,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjNTYBjx1uWyhaj0mEThhIgYIB",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 29,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjrDytA9bDDBiuDOP96HTl1F3i",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 30,
+          "status": "Success",
+          "duration": "2.08",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjb9A9ZtZGowLspoVkGqv0vFFJ",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 31,
+          "status": "Success",
+          "duration": "2.17",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjUFG3fzSlFuWz0lUNZpOqQ1Kg",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 32,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjkhajoKKRffEJrC2HPlTcvoMU",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 33,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjJ5ejLEGhlIxHHGoWSBzKS4vO",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 34,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjpvwTolgSlKl6y7MMsxUBlw61",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 35,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjJ5B0m07bsa9ELYP27dzRpV7v",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 36,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjWTxpzFFr7oasOK9gej8LbIBM",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 37,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjn0fmkwcUoLq5H6Knhv9OCmuC",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 38,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjhfMT6c7WIWzmOKBkqgDVUl4G",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 39,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj8bbXrlw6bjruOtt6c64yIxyn",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 40,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjqdwBaDc3G8UqSsIUjQ4FSDZx",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 41,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjzYPyv8v6152bXRZM8gk8IttA",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 42,
+          "status": "Success",
+          "duration": "2.21",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj7epAbt4EH7J2czRa8jKS5hEw",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 43,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjgA1hoRH6GIMDeTFNUviI1S9N",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 44,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjrPKUmmjyBrS81UnZVQ1TpVMI",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 45,
+          "status": "Success",
+          "duration": "2.09",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjxhkhAqCPXSYC4eQmQPs9yRZY",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 46,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjslil6sMaYcNQV4QtZsoYW7wl",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 47,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj0bzGP2GICempY82ulMcXNqb4",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 48,
+          "status": "Success",
+          "duration": "2.34",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjXqddtcR4JMMP78YpWdfIJrpm",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 49,
+          "status": "Success",
+          "duration": "2.12",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjQxXT6UsbQWH681TKkMh5m95N",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 50,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjMr5CAWMJSXHaLTCzmJQMbclO",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 51,
+          "status": "Success",
+          "duration": "2.12",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjm3AsQLgQE3FbFFvUQ1Nciomx",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 52,
+          "status": "Success",
+          "duration": "2.16",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjom8RaVbe2jnWlHnjmy9ypDgx",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 53,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj7SuNnWk1aFIJH8350jp6QrMC",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 54,
+          "status": "Success",
+          "duration": "2.09",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjto99Md1myAd0jgqP9IWpCwTr",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 55,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjtB8cFTOCdypX02lItQUiQrXQ",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 56,
+          "status": "Success",
+          "duration": "2.12",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjHBLUg2GWnuJFuvYEUdd9e1Hl",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 57,
+          "status": "Success",
+          "duration": "2.20",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjK81Bjm9ilDOKjNJ4bZMIhnlV",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 58,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjUkcXVp572IEnHz3aMQuyKRG0",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 59,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj4XXnGp8hSK6QtCUH2P5eOwxp",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 60,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjvmq9FUdGQyoPvzuwb8sbNxfi",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 61,
+          "status": "Success",
+          "duration": "3.03",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjeOQi0R7xIQGwED3sYbwQnOBC",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 62,
+          "status": "Success",
+          "duration": "2.12",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjIxbcoVniPcPZgrFGaeNWWHjX",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 63,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj3MjAMFY3gFg2HxIAs12IkM0Q",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 64,
+          "status": "Success",
+          "duration": "1.63",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj0RvJeU9IldC8oV7fLgbyj66N",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 65,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjQppTLmFjNS1EGhNdr360GFdO",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 66,
+          "status": "Success",
+          "duration": "2.16",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjLcaXNw5iYi5S6ySgl159AwAc",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 67,
+          "status": "Success",
+          "duration": "1.64",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjfxW7rFaT0KGMoxCSl5NpIBpY",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 68,
+          "status": "Success",
+          "duration": "2.09",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj2opQWuxMGz43BDaEev1M05P5",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 69,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjeRNaKliWeTR1KaoA4c1Ns4Uw",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 70,
+          "status": "Success",
+          "duration": "2.09",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjFFvbfrp3FknHZ5fNRnfQsBSR",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 71,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjvEUilXsJCbz47r4y5BBKYlrl",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 72,
+          "status": "Success",
+          "duration": "2.11",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjnbywnzLGzPyPnpWnlNLsJjgP",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 73,
+          "status": "Success",
+          "duration": "1.68",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjOt3Yn35bzIMcwCri7EduYqr5",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 74,
+          "status": "Success",
+          "duration": "1.68",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjhJ4QSldyAGkw0Lew2YcjJXzz",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 75,
+          "status": "Success",
+          "duration": "2.16",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj1HCnGyGPTfuMaHe2S8PzLiWs",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 76,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjTklnmt5eKYKu02sk0JzOAilC",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 77,
+          "status": "Success",
+          "duration": "2.14",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj0OY83o8W4P0ShjWm4N5g9wpo",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 78,
+          "status": "Success",
+          "duration": "1.63",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjuRp1WZafBKOWq3zcl1PGEy0L",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 79,
+          "status": "Success",
+          "duration": "2.08",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj9yxqfcAIKqIdHXmtRpls0t8s",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 80,
+          "status": "Success",
+          "duration": "1.60",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjhnQxnd8cRkIVfXhdetHdKEjB",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 81,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjubBsYoQ5nzSaoduZn6ABWv0W",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 82,
+          "status": "Success",
+          "duration": "2.08",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj7lmruRvPGEnPF6R6hBZiUAR9",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 83,
+          "status": "Success",
+          "duration": "2.01",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjFpkHQfWhNRP8LGYARMO9FgFa",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 84,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjeBlAojKvFIIUL6OlVbI0ITD0",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 85,
+          "status": "Success",
+          "duration": "2.16",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjvD7b8vwzDYET59ygcWmKDdFd",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 86,
+          "status": "Success",
+          "duration": "2.08",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjAPjQW6hG8x1peC0MK5IsF94N",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 87,
+          "status": "Success",
+          "duration": "2.01",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjS9Bf37vjwGvmgtkTKHceD3J1",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 88,
+          "status": "Success",
+          "duration": "2.09",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjQQePcUfeUUyKTVgiym1caiRJ",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 89,
+          "status": "Success",
+          "duration": "2.08",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjTjDU636v2DLGxWkI1SIJ9ULm",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 90,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjfwdYf95t8nkZTKFlK0HM3vZY",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 91,
+          "status": "Success",
+          "duration": "2.09",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjLbMuwy9mW2aEVf2wxVPABqwM",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 92,
+          "status": "Success",
+          "duration": "2.08",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj2p9WiKTPHG7GXBowNEuq5EnN",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 93,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjKOad4fxyUffOCyC0uf2plSQU",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 94,
+          "status": "Success",
+          "duration": "2.01",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjuplpilc3NNNfm9P9smhbOZgl",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 95,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjfvGHCwhRt75Ws5yWHmHo6ODS",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 96,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjkEaB5N3OifcaorFEyuNDivu5",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 97,
+          "status": "Success",
+          "duration": "2.09",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjoJEXihvhwBohzf3oTmuckzbr",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 98,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjeY44qVnBitgi8HbaWr6R7ycQ",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 99,
+          "status": "Success",
+          "duration": "2.08",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hj8vy8grsy5KvnGmkXOqY7up36",
+          "openai_created": 1744585623
+        }
+      },
+      {
+        "status": "fulfilled",
+        "value": {
+          "requestNumber": 100,
+          "status": "Success",
+          "duration": "2.10",
+          "response": "The capital of France is Paris.",
+          "model": "gpt-4o-mini",
+          "prompt": "What is the capital of France?",
+          "maxTokens": 100,
+          "temperature": 0.7,
+          "topP": 1,
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 8,
+            "total_tokens": 22,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "openai_id": "chatcmpl-BM0hjHXTFS1kfRoH0BCFfzQMg4NGS",
+          "openai_created": 1744585623
+        }
+      }
+    ]
+  }
+]
