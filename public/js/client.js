@@ -161,6 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function repopulateTable() {
         if (!resultsTableBody) return;
+        console.log(`Repopulating table. Current data count: ${testData.requestData.length}`, testData.requestData); // Log array content
         resultsTableBody.innerHTML = ''; // Clear existing rows
         const sortedResults = sortData(testData.requestData);
         sortedResults.forEach(result => addResultToTable(result)); // addResultToTable function remains the same
@@ -479,39 +480,27 @@ document.addEventListener('DOMContentLoaded', () => {
             // Update total count regardless of status
             if (totalRequestsSpan) totalRequestsSpan.textContent = parseInt(totalRequestsSpan.textContent || '0') + 1;
 
+            // Only update counts here, don't push to array
             if (result.status === 'Success') {
                 testData.successCount++;
-                // Ensure duration is a number before pushing
-                const durationNum = parseFloat(result.duration);
-                if (!isNaN(durationNum)) {
-                    // Store request number and duration
-                    testData.requestData.push({ 
-                        requestNumber: result.requestNumber, 
-                        duration: durationNum,
-                        usage: result.usage,
-                        status: 'Success'
-                    });
-                } else {
-                    console.warn(`Could not parse duration for request ${result.requestNumber}:`, result.duration);
-                }
+                // REMOVE: testData.requestData.push({ ... });
             } else {
                 testData.failCount++;
-                // Store failure info including params for context
-                 testData.requestData.push({ 
-                    requestNumber: result.requestNumber, 
-                    duration: null,
-                    error: result.error,
-                    status: 'Failed'
-                });
+                // REMOVE: testData.requestData.push({ ... });
             }
+            
+            // Update display spans
             if (successfulRequestsSpan) successfulRequestsSpan.textContent = testData.successCount;
             if (failedRequestsSpan) failedRequestsSpan.textContent = testData.failCount;
 
-            // Calculate average only on valid durations
+            // Calculate average only on valid durations from the *existing* array
             const validDurations = testData.requestData.map(d => d.duration).filter(d => d !== null);
             if (validDurations.length > 0) {
                 const avgTime = validDurations.reduce((a, b) => a + b, 0) / validDurations.length;
                 if (avgResponseTimeSpan) avgResponseTimeSpan.textContent = `${avgTime.toFixed(2)}s`;
+            } else {
+                // Handle case where there are no successful requests yet
+                 if (avgResponseTimeSpan) avgResponseTimeSpan.textContent = '0.00s';
             }
         } catch (error) {
             console.error('Error updating stats:', result, error);
