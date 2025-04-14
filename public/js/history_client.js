@@ -189,7 +189,12 @@ document.addEventListener('DOMContentLoaded', () => {
             contentDiv.classList.add('content');
             const responseText = String(result.response || ''); // Ensure string
             if (window.marked && typeof window.marked.parse === 'function') {
-                 contentDiv.innerHTML = marked.parse(responseText);
+                 try {
+                    contentDiv.innerHTML = marked.parse(responseText);
+                 } catch (renderError) {
+                     console.error('Error rendering markdown:', renderError, responseText);
+                     contentDiv.textContent = `Error rendering response: ${responseText.substring(0, 100)}...`; // Show plain text on error
+                 }
             } else {
                 console.warn('marked.js not loaded.');
                 const pre = document.createElement('pre');

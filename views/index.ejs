@@ -27,7 +27,11 @@
                         <option value="gpt-4o-mini" selected>gpt-4o-mini</option>
                         <option value="gpt-4o">gpt-4o</option>
                         <option value="gpt-4-turbo">gpt-4-turbo</option>
+                        <option value="gpt-4">gpt-4</option>
                         <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
+                        <option value="o1">o1 (Requires Access)</option> 
+                        <option value="o3-mini">o3-mini (Requires Access)</option>
+                        <!-- Add other relevant models as needed -->
                     </select>
                 </div>
 
@@ -46,12 +50,12 @@
                     <input type="number" id="requests-input" name="numRequests" min="1" max="100" value="10">
                  </div>
 
-                 <div class="form-group">
+                 <div class="form-group" id="temp-slider-group">
                     <label for="temp-slider">Temperature: <span id="temp-value">0.7</span></label>
                     <input type="range" id="temp-slider" name="temperature" min="0" max="2" step="0.1" value="0.7">
                  </div>
 
-                 <div class="form-group">
+                 <div class="form-group" id="top-p-slider-group">
                     <label for="top-p-slider">Top P: <span id="top-p-value">1.0</span></label>
                     <input type="range" id="top-p-slider" name="topP" min="0" max="1" step="0.1" value="1.0">
                  </div>

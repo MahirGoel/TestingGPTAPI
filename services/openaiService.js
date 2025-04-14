@@ -24,13 +24,27 @@ async function sendSingleRequest(requestNumber, model, prompt, maxTokens, temper
     sseService.sendMessage(sseClientId, 'log', { message: `${logPrefix} Sending... (Model: ${model}, Max Tokens: ${maxTokens}, Temp: ${temperature}, TopP: ${topP})` });
 
     try {
-        const completion = await openai.chat.completions.create({
+        // Prepare the base payload
+        const payload = {
             model: model,
             messages: [{ role: 'user', content: prompt }],
-            max_tokens: maxTokens,
-            temperature: temperature,
-            top_p: topP,
-        });
+        };
+
+        // Conditionally add parameters based on model
+        if (model === 'o1' || model === 'o3-mini') {
+            // Use max_completion_tokens for specific models
+            console.log(`Using max_completion_tokens=${maxTokens} for model ${model} (excluding temp/top_p)`);
+            payload.max_completion_tokens = maxTokens;
+            // DO NOT add temperature or top_p
+        } else {
+            // Use standard max_tokens and include temp/top_p for other models
+            payload.max_tokens = maxTokens;
+            payload.temperature = temperature;
+            payload.top_p = topP;
+        }
+
+        // Make the API call with the constructed payload
+        const completion = await openai.chat.completions.create(payload);
 
         const endTime = Date.now();
         const duration = (endTime - startTime) / 1000;

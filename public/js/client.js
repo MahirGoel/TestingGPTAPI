@@ -10,13 +10,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const promptInput = document.getElementById('prompt-input');
     const requestsInput = document.getElementById('requests-input');
 
-    // Input Sliders & Value Displays
+    // Input Sliders & Value Displays & Containers
     const tokensSlider = document.getElementById('tokens-slider');
     const tokensValueSpan = document.getElementById('tokens-value');
     const tempSlider = document.getElementById('temp-slider');
     const tempValueSpan = document.getElementById('temp-value');
+    const tempSliderGroup = document.getElementById('temp-slider-group'); // Get container
     const topPSlider = document.getElementById('top-p-slider');
     const topPValueSpan = document.getElementById('top-p-value');
+    const topPSliderGroup = document.getElementById('top-p-slider-group'); // Get container
 
     // Stats Display Spans
     const totalRequestsSpan = document.getElementById('total-requests');
@@ -43,6 +45,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabButtons = document.querySelectorAll('.tab-button');
     const tabPanels = document.querySelectorAll('.tab-panel');
     const sortableHeaders = document.querySelectorAll('#results-table th.sortable');
+
+    // --- UI Control Logic ---
+    function toggleParameterVisibility() {
+        const selectedModel = modelSelect?.value;
+        if (selectedModel === 'o1' || selectedModel === 'o3-mini') {
+            tempSliderGroup?.classList.add('hidden');
+            topPSliderGroup?.classList.add('hidden');
+        } else {
+            tempSliderGroup?.classList.remove('hidden');
+            topPSliderGroup?.classList.remove('hidden');
+        }
+    }
+
+    // Add listener to model select dropdown
+    if (modelSelect) {
+        modelSelect.addEventListener('change', toggleParameterVisibility);
+        // Initial check on page load
+        toggleParameterVisibility();
+    }
 
     // --- Initialize Slider Display Values & Add Listeners ---
     function setupSlider(slider, valueSpan) {
@@ -272,20 +293,20 @@ document.addEventListener('DOMContentLoaded', () => {
             logMessage(data.message);
         } catch (parseError) {
             console.error('Failed to parse SSE log message:', e.data, parseError);
+            logMessage(`Received unparseable log message: ${e.data}`);
         }
     }
 
     function handleResultEvent(e) {
         try {
             const result = JSON.parse(e.data);
-            // Add raw data first
             addRawResultData(result);
-            // Then repopulate table which includes sorting
             repopulateTable(); 
-            addResponseToViewer(result); // Keep adding responses as they arrive
-            updateStats(result); // Stats can update incrementally
+            addResponseToViewer(result);
+            updateStats(result);
         } catch (parseError) {
             console.error('Failed to parse SSE result message:', e.data, parseError);
+             logMessage(`Received unparseable result message: ${e.data}`);
         }
     }
 
@@ -294,11 +315,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = JSON.parse(e.data);
             logMessage(`--- Test Run Complete ---`);
             if (totalTimeSpan) totalTimeSpan.textContent = `${data.totalDuration}s`;
-            updateCharts(); // Update charts before resetting UI
+            updateCharts(); 
         } catch (parseError) {
             console.error('Failed to parse SSE complete message:', e.data, parseError);
+            logMessage(`Received unparseable complete message: ${e.data}`);
         }
-        resetUI(); // Always reset UI on complete
+        resetUI();
         if (eventSource) {
             eventSource.close();
             logMessage('SSE Connection closed by client on completion.');
@@ -311,7 +333,7 @@ document.addEventListener('DOMContentLoaded', () => {
             logMessage(`SERVER ERROR: ${data.message}`);
         } catch (parseError) {
              console.error('Failed to parse SSE error message:', e.data, parseError);
-             logMessage('Received unparseable server error via SSE.');
+             logMessage(`Received unparseable server error via SSE: ${e.data}`);
         }
         resetUI();
         if (eventSource) eventSource.close();

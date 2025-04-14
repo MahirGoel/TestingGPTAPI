@@ -343,4 +343,9 @@ th.sortable[data-sort-dir="asc"] .sort-indicator {
 th.sortable[data-sort-dir="desc"] .sort-indicator {
     border-top: 5px solid var(--text-color);
     opacity: 1;
+}
+
+/* Utility class */
+.hidden {
+    display: none !important; /* Use !important to override other display styles if necessary */
 } 
